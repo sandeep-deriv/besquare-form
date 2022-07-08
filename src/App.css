@@ -1,7 +1,54 @@
+body {
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .label {
   display: block;
 }
 
-input {
+input,
+select {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.v-center {
+  justify-content: center;
+}
+
+.h-center {
+  align-items: center;
+}
+
+.pa-16 {
+  padding: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.btn-primary {
+  background-color: green;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: grey;
+  color: white;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+button {
   width: 100%;
 }
