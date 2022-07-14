@@ -6,13 +6,15 @@ body {
   box-sizing: border-box;
 }
 
-.label {
-  display: block;
-}
-
 input,
 select {
   width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+}
+
+input.radio {
+  width: auto;
 }
 
 .d-flex {
@@ -35,8 +37,20 @@ select {
   margin-bottom: 16px;
 }
 
+button {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
 .btn-primary {
-  background-color: green;
+  background-color: #00d100;
   color: white;
 }
 
@@ -49,6 +63,23 @@ select {
   width: 50%;
 }
 
-button {
-  width: 100%;
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.no-data {
+  font-size: 2rem;
+  color: #c0ec71;
+}
+
+.special-text {
+  font-size: 2rem;
+  color: #5c6252;
+}
+
+.full-height-center {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
